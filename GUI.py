@@ -1,3 +1,5 @@
+# this table is a simple GUI using PyQt5 to add new patients to the database
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QMessageBox, QComboBox
 import pypyodbc as odbc

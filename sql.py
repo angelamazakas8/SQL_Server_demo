@@ -1,3 +1,8 @@
+# main code to create SQL Server tables remotely using python
+# this code creates a table for a hospital database
+# for 70% of patients, a CBC is performed
+# if those CBC results are abnormal, a liver function test is performed
+
 import pypyodbc as odbc
 import random
 from datetime import datetime, timedelta

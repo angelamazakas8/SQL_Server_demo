@@ -1,3 +1,6 @@
+# this file saves database data as a .csv
+# this data can then be used for ML alogirithms
+
 import pypyodbc as odbc
 import csv
 import pandas as pd
